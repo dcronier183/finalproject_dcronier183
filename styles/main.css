@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    padding: 8px;
+}
+
+a {
+    color: blue;
+}
+#ImageGallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ImageGallery img {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+@media (min-width: 768px) {
+    #ImageGallery {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
